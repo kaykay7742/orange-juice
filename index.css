@@ -1,6 +1,6 @@
 
 body {
-    background-color: #8ba1bb;
+    background-color: #eeb20c;
     font-family:Arial, Helvetica, sans-serif;
     margin: 60px 8%;
     margin-top: 0px;
@@ -10,7 +10,7 @@ body {
     background-color: white;
     padding:20px 8%;
     overflow: auto;
-    box-shadow: 0px 0px 10px 8px rgba(78, 74, 74,0.6);
+    box-shadow: 0px 0px 8px 5px rgb(95, 93, 93);
 }
 h1 {text-align: center; margin-top:0;margin-bottom: 10px;font-size: 30px;}
 p.paragraph {
@@ -20,7 +20,7 @@ p.paragraph {
   }
 div.paragraph {text-align: center;}
 h2 {
-    background-color:black;
+    background-color:#021124;
     max-width: 50%;
     color:white;
     padding:5px 10px;
@@ -33,7 +33,7 @@ h2 {
   div.h2 {text-align: center; margin:-10px; }
   div.divider {
       max-width: 300px;
-      background-color: rgb(37, 35, 35);
+      background-color: #021124;
       height: 1.9px;
       margin:auto;
   }
@@ -55,8 +55,8 @@ h2 {
       margin:auto;
       width:100%;
       position:absolute; bottom:0px;
-      background-color: #8ba1bb;
-      opacity: 0.8;
+      background-color:#eeb20c;
+      opacity: 0.6;
       color:white;
     
   }
@@ -78,12 +78,12 @@ h2 {
   .col1,.col2 {width: 45%;}
   h3 {
       text-transform: uppercase;
-      border-bottom: 3px solid #8ba1bb;
+      border-bottom: 3px solid #021124;
       text-align:center;
       
   }
   ul li {
-      border:0.3px solid rgb(95, 89, 89);
+      border:0.3px solid rgb(230, 180, 17);
       margin:6px;
       list-style-type: none;
       text-align: center;
@@ -91,7 +91,7 @@ h2 {
       font-size:14px;
   }
   #col2 td p {
-      background-color: #8ba1bb;
+      background-color: #eeb20c;
       width: 25px;
       height: 25px;
       padding-top:4px;
@@ -121,7 +121,8 @@ h2 {
       width:100px;
       padding:13px;
       border-radius:10px;
-      background-color: #8ba1bb;
+      background-color: #eeb20c;
+      font-weight: bold;
   }
 
   @media only screen and (max-width: 700px) {
